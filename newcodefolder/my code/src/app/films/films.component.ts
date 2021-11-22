@@ -1,14 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 
-import filmJSON from '../data/example_data1.json';
+import filmJSON from '../data/example_data1 (1).json';
 
 interface film {
   Year: string | null;
   Length: number | null;
   Title: string | null;
-  Subject: string | null;
+  Subject:string | null;
   Actor: string | null;
-  Director: string | null;
+  Actress: string | null;
+  Director:string | null;
   Popularity: number | null;
   Awards: string | null;
 }
@@ -21,6 +22,8 @@ interface film {
 export class FilmsComponent implements OnInit {
 
   constructor() { }
+
+  films: film[] = filmJSON;
 
   ngOnInit(): void {
   }
