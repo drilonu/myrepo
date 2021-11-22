@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import filmJSON from '../data/example_data1 (1).json';
+import filmJSON from '../data/example_data1.json';
 
 interface film {
   Year: string | null;
