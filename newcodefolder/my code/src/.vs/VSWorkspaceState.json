@@ -4,8 +4,9 @@
     "\\app",
     "\\app\\dashboard",
     "\\app\\dashboard\\data",
+    "\\app\\films",
     "\\app\\hero-detail"
   ],
-  "SelectedNode": "\\app\\dashboard\\data\\example_data1 (1).json",
+  "SelectedNode": "\\app\\films\\films.component.ts",
   "PreviewInSolutionExplorer": false
 }
