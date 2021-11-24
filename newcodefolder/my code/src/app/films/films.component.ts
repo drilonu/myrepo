@@ -6,10 +6,10 @@ interface film {
   Year: string | null;
   Length: number | null;
   Title: string | null;
-  Subject:string | null;
+  Subject: string | null;
   Actor: string | null;
   Actress: string | null;
-  Director:string | null;
+  Director: string | null;
   Popularity: number | null;
   Awards: string | null;
 }

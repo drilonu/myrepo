@@ -1,7 +1,16 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\dashboard",
+    "\\src\\app\\dashboard\\data",
+    "\\src\\app\\films",
+    "\\src\\app\\hero-detail",
+    "\\src\\app\\hero-search",
+    "\\src\\app\\heroes",
+    "\\src\\app\\messages"
   ],
-  "SelectedNode": "\\src",
+  "SelectedNode": "\\src\\app\\films\\films.component.ts",
   "PreviewInSolutionExplorer": false
 }
