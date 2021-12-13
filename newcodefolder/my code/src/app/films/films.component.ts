@@ -16,8 +16,8 @@ interface film {
 
 @Component({
   selector: 'app-films',
+  styleUrls: ['./films.component.css'],
   templateUrl: './films.component.html',
-  styleUrls: ['./films.component.css']
 })
 export class FilmsComponent implements OnInit {
 

@@ -5,4 +5,9 @@
   <a routerLink="/films">Films</a>
 </nav>
 <router-outlet></router-outlet>
-<app-messages></app-messages>
+<app-messages>
+
+</app-messages>
+
+<app-menubar (menuExpanded)="onMenuExpanded($event)"></app-menubar>
+
