@@ -3,7 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatButtonModule } from '@angular/material';
 import { RouterModule, Routes } from '@angular/router';
 
 
@@ -19,9 +18,7 @@ import { HeroesComponent } from './heroes/heroes.component';
 import { HeroSearchComponent } from './hero-search/hero-search.component';
 import { MessagesComponent } from './messages/messages.component';
 import { FilmsComponent } from './films/films.component';
-import { MatSliderModule } from './films/films.component';
 import { MatIconModule } from '@angular/material/icon';
-import { MatListModule } from '@angular/material';
 
 const appRoutes: Routes = [
   {
