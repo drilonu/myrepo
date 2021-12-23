@@ -15,6 +15,9 @@ import { HeroesComponent } from './heroes/heroes.component';
 import { HeroSearchComponent } from './hero-search/hero-search.component';
 import { MessagesComponent } from './messages/messages.component';
 import { FilmsComponent } from './films/films.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatSliderModule } from '@angular/material/slider';
+import { MatListModule } from '@angular/material/list';
 
 @NgModule({
   imports: [
@@ -22,13 +25,17 @@ import { FilmsComponent } from './films/films.component';
     FormsModule,
     AppRoutingModule,
     HttpClientModule,
+    MatSliderModule,
+    MatListModule,
 
     // The HttpClientInMemoryWebApiModule module intercepts HTTP requests
     // and returns simulated server responses.
     // Remove it when a real server is ready to receive requests.
     HttpClientInMemoryWebApiModule.forRoot(
       InMemoryDataService, { dataEncapsulation: false }
-    )
+    ),
+
+    BrowserAnimationsModule
   ],
   declarations: [
     AppComponent,
