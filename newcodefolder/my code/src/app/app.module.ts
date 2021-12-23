@@ -5,7 +5,6 @@ import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterModule, Routes } from '@angular/router';
 
-
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService } from './in-memory-data.service';
 
@@ -24,7 +23,7 @@ const appRoutes: Routes = [
   {
     path: '',
     redirectTo: '/dashboard',
-    pathMath: 'full',
+    pathMath:'full',
     component: DashboardComponent
   },
   {
